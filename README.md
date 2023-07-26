@@ -1,46 +1,18 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<h1>Passwordy</h1>
+<h3>The only thing you need to manage your passwords securely!</h3>
+<h5>Hi there👋🏻,<br/> Passwordy is a mobile and web integrated software which can help people storing their securely without getting them on the cloud.</h5>
+<hr/>
+<h5>Passwordy is currenty being developed in web version in form of a website and will soon be integrated on a mobile app.</h5>
+<h5>
+  This is a yarn project, so to create it on a local machine :-<br/><br/>
+  <ol>
+    <li>Clone the repository.</li>
+    <li>Install yarn package manager from npm using <code>npm i -g yarn</code>.</li>
+    <li>Execute <code>yarn</code> or <code>yarn install</code> in the termonal to install the required packages.</li>
+    <li>Execute <code>yarn start</code> to start a development server.</li>
+  </ol>
+</h5>
+<hr/>
+<h3>How do passwordy works? </h3>
+<h5>It's an obvious question for people to think that how do passwordy works without storing any data on a database.<br/>
+Passwordy will use local storage of a device to save all the passwords on it and if a person enters a new password on device A and then moves to device B then the device B will directly fetch the data from device A</h5>
