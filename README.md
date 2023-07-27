@@ -16,3 +16,4 @@
 <h3>How do passwordy works? </h3>
 <h5>It's an obvious question for people to think that how do passwordy works without storing any data on a database.<br/>
 Passwordy will use local storage of a device to save all the passwords on it and if a person enters a new password on device A and then moves to device B then the device B will directly fetch the data from device A</h5>
+
