@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './page.module.css'
-
+import {AiOutlineArrowDown} from 'react-icons/ai';
 export default function ome() {
   return (
     <main>
@@ -12,8 +12,11 @@ export default function ome() {
           <button className={styles.button}>Sign Up</button>
           <button className={styles.button}>Login</button>
         </div>
+        <div className={styles.knowMore}>
+          <p>Know more</p>
+          <AiOutlineArrowDown/>
+        </div>
       </div>
-
     </main>
   )
 }
