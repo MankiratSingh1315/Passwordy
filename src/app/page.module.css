@@ -1,6 +1,5 @@
 .main{
     height: 100vh;
-    width: 100vw;
     background-color: rgb(48, 99, 142);
     display: flex;
     flex-direction: column;
@@ -54,4 +53,27 @@
     width: 10vw;
     color: white;
     cursor: pointer;
+}
+
+.about{
+    background-color: black;
+    height: 100vh;
+}
+
+.txt{
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+    padding-top: 7%;
+}
+
+.quote{
+    width: 25vw;
+    font-size: 23px;
+}
+
+.master{
+    font-size: 72px;
+    font-family: sans-serif;
+    color: rgb(237, 174, 73);
 }

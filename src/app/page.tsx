@@ -17,6 +17,20 @@ export default function ome() {
           <AiOutlineArrowDown/>
         </div>
       </div>
+      <div className={styles.about}>
+        <div className={styles.txt}>
+        <p className={styles.master}>Master Your<br/>Passwords</p>
+        <p className={styles.quote}>Tired of forgetting your passwords or useful awful stiky notes? Secure Password Manager has got you fully covered! Manage all your passwords in one insanely secure and easy-to-use platform, completely free!</p>
+        </div>
+
+        <div className={styles.features}>
+        </div>
+      </div>
     </main>
   )
+}
+
+
+function feature(){
+  return <div></div>
 }
