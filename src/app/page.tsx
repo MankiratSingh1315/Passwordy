@@ -31,6 +31,16 @@ export default function ome() {
 }
 
 
-function feature(){
-  return <div></div>
+function feature({head,desc}){
+  return <div className={styles.aboutTile}>
+    <h3></h3>
+  </div>
 }
+
+
+
+
+
+
+
+
