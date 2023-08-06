@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './page.module.css'
 import {AiOutlineArrowDown} from 'react-icons/ai';
+import { Feature } from './feat';
 export default function ome() {
   return (
     <main>
@@ -24,24 +25,11 @@ export default function ome() {
         </div>
 
         <div className={styles.features}>
-          <Feature head='Local Storage' desc='Full control, complete safety'/>
-          <Feature head='2FA🔒' desc='Double the security'/>
-          <Feature head='Quick Access' desc='Save time, Stay organised'/>
+          <Feature head='Local Storage' desc='Full control, complete safety' cl='a'/>
+          <Feature head='2FA🔒' desc='Double the security' cl='b'/>
+          <Feature head='Quick Access' desc='Save time, Stay organised' cl='c'/>
         </div>
       </div>
     </main>
   )
-}
-
-interface feat{
-  head:string,
-  desc:string
-}
-
-
-function Feature({head,desc}:feat){
-  return <div className={styles.aboutTile}>
-    <h3 className={styles.head}>{head}</h3>
-    <h5 className={styles.desc}>{desc}</h5>
-  </div>
 }

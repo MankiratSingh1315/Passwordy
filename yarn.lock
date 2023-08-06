@@ -2237,6 +2237,7 @@ __metadata:
     react-dom: 18.2.0
     react-icons: ^4.10.1
     typescript: 5.1.6
+    vanilla-tilt: ^1.8.0
   languageName: unknown
   linkType: soft
 
@@ -2939,6 +2940,13 @@ __metadata:
   dependencies:
     punycode: ^2.1.0
   checksum: 7167432de6817fe8e9e0c9684f1d2de2bb688c94388f7569f7dbdb1587c9f4ca2a77962f134ec90be0cc4d004c939ff0d05acc9f34a0db39a3c797dada262633
+  languageName: node
+  linkType: hard
+
+"vanilla-tilt@npm:^1.8.0":
+  version: 1.8.0
+  resolution: "vanilla-tilt@npm:1.8.0"
+  checksum: 26be5f59e196de6a8c514c5cd62361a354cc90e375bebff12902d28232ce299cb36b7910f22f3f466d563a1ade20af914a8c933ddc484f42c21b06a8a46cfd75
   languageName: node
   linkType: hard
 
