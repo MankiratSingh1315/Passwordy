@@ -30,6 +30,9 @@ export default function ome() {
           <Feature head='Quick Access' desc='Save time, Stay organised' cl='c'/>
         </div>
       </div>
+      <div className={styles.footer}>
+        Developed by Mankirat Singh🚀
+      </div>
     </main>
   )
 }
