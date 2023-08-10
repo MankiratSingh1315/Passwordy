@@ -23,25 +23,3 @@ Passwordy will use local storage of a device to save all the passwords on it and
 </br>
 And Created the hero part of landing page
 </h3>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
