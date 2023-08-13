@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './page.module.css'
 import {AiOutlineArrowDown} from 'react-icons/ai';
-import { Feature, Buttons } from './feat';
+import { TiltedDiv, Buttons } from './feat';
 
 export default function home() {
   return (
@@ -30,4 +30,20 @@ export default function home() {
       </div>
     </main>
   )
+}
+interface feat{
+  head:string,
+  desc:string,
+  cl:string
+  }
+
+function Feature({head,desc,cl}:feat){
+  return <TiltedDiv>
+  <div className={styles.aboutTile} >
+    <div className={`${styles.cl}`}>
+    <h3 className={styles.head}>{head}</h3>
+    <h5 className={styles.desc}>{desc}</h5>
+  </div>
+  </div>
+  </TiltedDiv>
 }
