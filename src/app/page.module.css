@@ -83,7 +83,7 @@
     font-family: 'Balsamiq Sans', sans-serif;
     color: rgb(237, 174, 73);
 }
-.aboutTile .hello{
+.aboutTile div{
     color: white;
     background-color: rgba(37, 37, 37, 0.477);
     width: 15vw;
