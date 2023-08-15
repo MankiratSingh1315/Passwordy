@@ -4,8 +4,8 @@ import styles from "./page.module.css";
 export default function SignupPage() {
     
     return (
-        <div>
-            <h1>Signup</h1>
+        <div className={styles.signup}>
+            <h1>Sign Up</h1>
             <h4>And be ready for your passwords to be managed hassle free.</h4>
             <form>
                 <label htmlFor="email">Email</label>
