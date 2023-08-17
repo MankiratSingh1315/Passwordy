@@ -5,9 +5,9 @@ export default function SignupPage() {
     
     return (
         <div className={styles.signup}>
+            <form>
             <h1>Sign Up</h1>
             <h4>And be ready for your passwords to be managed hassle free.</h4>
-            <form>
                 <label htmlFor="email">Email</label>
                 <input type="email" id="email" name="email" />
                 <label htmlFor="password">Password</label>
