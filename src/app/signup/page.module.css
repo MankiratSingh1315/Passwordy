@@ -9,19 +9,21 @@
     background: linear-gradient(-45deg, #09ff00, #ff0000);
 }
 
-.signup h1{
+.signup>form>h1{
     font-size: 2.5rem;
     margin-bottom: 1rem;
+    color: #000;
 }
 
-.signup h4{
+.signup>form>h4{
     font-size: 1.5rem;
     margin-bottom: 2rem;
+    color: #000;
 }
 
-.signup form{
+.signup>form{
     border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
     backdrop-filter: blur(7.6px);
     -webkit-backdrop-filter: blur(7.6px);
     display: flex;
@@ -35,7 +37,7 @@
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
 
-.signup form input{
+.signup>form>input{
     width: 80%;
     height: 10%;
     margin-bottom: 1rem;
@@ -47,7 +49,7 @@
     padding-left: 0.5rem;
 }
 
-.signup form button{
+.signup>form>button{
     width: 80%;
     height: 10%;
     margin-bottom: 1rem;
@@ -60,8 +62,14 @@
     cursor: pointer;
 }
 
-.signup form button:hover{
+.signup>form>button:hover{
     background-color: #fff;
     color: #000;
     border: 1px solid #000;
+}
+
+.signup>form>label{
+    font-size: 1.2rem;
+    /* margin-bottom: 1rem; */
+    color: #000;
 }
