@@ -44,7 +44,7 @@ export function Buttons(){
   return (
     <div className={styles.buttons}>
           <button className={styles.button} onClick={()=>router.push('/signup')}>Sign Up</button>
-          <button className={styles.button} >Login</button>
+          <button className={styles.button} onClick={()=>router.push('/login')}>Login</button>
     </div>
   );
 }
