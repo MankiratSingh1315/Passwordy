@@ -12,6 +12,35 @@ export default function dashboard(){
                 <button type="submit">Edit Password</button>
                 <button type="submit">Search Password</button>
             </div>
+            {/* table to show all the passwords */}
+            <table className={styles.table}>
+                <tr>
+                    <th>Website</th>
+                    <th>Username/Email used</th>
+                    <th>Password</th>
+                </tr>
+                <tr>
+                    <td>Google</td>
+                    <td>
+                        <p>yo@gmail.com</p>
+                    </td>
+                    <td>
+                        <button type="submit">Copy</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Facebook</td>
+                    <td>
+                        <p>
+                            test user
+                        </p>
+                        <button type="submit">Copy</button>
+                    </td>
+                    <td>
+                        <button type="submit">Copy</button>
+                    </td>
+                </tr>
+            </table>
         </div>
     )
 }

@@ -25,3 +25,75 @@
     cursor: pointer;
     border: none;
 }
+
+.buttons>button:hover{
+    background-color: rgb(48, 99, 142, 0.8);
+}
+
+.dashboard>h1{
+    font-size: 3rem;
+    color: rgb(48, 99, 142);
+    margin-top: 5vh;
+}
+
+.dashboard>h4{
+    font-size: 2rem;
+    /* color: rgb(48, 99, 142); */
+}
+
+/* style the table */
+.table {
+font-family: arial, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+
+.table>tr>td,.table>tr>th {
+border: 1px solid rgb(48, 99, 142);
+text-align: left;
+padding: 8px;
+}
+
+.table>tr:nth-child(even) {
+background-color: rgb(48, 99, 142, 0.2);
+}
+
+.table{
+    width: 80%;
+}
+
+.table>h2{
+    font-size: 2rem;
+    color: rgb(48, 99, 142);
+    margin-bottom: 2vh;
+}
+
+.table>h4{
+    font-size: 1.5rem;
+    color: rgb(48, 99, 142);
+    margin-bottom: 2vh;
+}
+
+.table>h5{
+    font-size: 1.2rem;
+    color: rgb(48, 99, 142);
+    margin-bottom: 2vh;
+}
+
+.table>h6{
+    font-size: 1rem;
+    color: rgb(48, 99, 142);
+    margin-bottom: 2vh;
+}
+
+.table>h3{
+    font-size: 1.5rem;
+    color: rgb(48, 99, 142);
+    margin-bottom: 2vh;
+}
+
+.table>h1{
+    font-size: 2rem;
+    color: rgb(48, 99, 142);
+    margin-bottom: 2vh;
+}
