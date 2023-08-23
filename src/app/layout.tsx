@@ -5,6 +5,8 @@ import Footer from './footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
+export const runtime = 'nodejs'
+
 export const metadata: Metadata = {
   title: 'Passwordy',
   description: 'Making passwords easy',
