@@ -1,4 +1,7 @@
+'use client'
+
 import React from 'react';
+import {Table, TableHeader, TableColumn, TableBody, TableRow, TableCell} from "@nextui-org/react";
 import styles from './dash.module.css';
 
 export default function dashboard(){
@@ -12,35 +15,25 @@ export default function dashboard(){
                 <button type="submit">Edit Password</button>
                 <button type="submit">Search Password</button>
             </div>
-            {/* table to show all the passwords */}
-            <table className={styles.table}>
-                <tr>
-                    <th>Website</th>
-                    <th>Username/Email used</th>
-                    <th>Password</th>
-                </tr>
-                <tr>
-                    <td>Google</td>
-                    <td>
-                        <p>yo@gmail.com</p>
-                    </td>
-                    <td>
-                        <button type="submit">Copy</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Facebook</td>
-                    <td>
-                        <p>
-                            test user
-                        </p>
-                        <button type="submit">Copy</button>
-                    </td>
-                    <td>
-                        <button type="submit">Copy</button>
-                    </td>
-                </tr>
-            </table>
+            <Table isStriped aria-label='Example static collection table'>
+                <TableHeader>
+                    <TableColumn>Website</TableColumn>
+                    <TableColumn>Username/Email used</TableColumn>
+                    <TableColumn>Password</TableColumn>
+                </TableHeader>
+                <TableBody>
+                    <TableRow key="1">
+                        <TableCell>Google</TableCell>
+                        <TableCell>yo@gmail.com</TableCell>
+                        <TableCell>password</TableCell>
+                    </TableRow>
+                    <TableRow key="2">
+                        <TableCell>Face Book</TableCell>
+                        <TableCell>Falana/Dhimkana</TableCell>
+                        <TableCell>password</TableCell>
+                    </TableRow>
+                </TableBody>
+                </Table>
         </div>
     )
 }
