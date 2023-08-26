@@ -19,7 +19,13 @@ Passwordy will use local storage of a device to save all the passwords on it and
 
 <h2>Progress
 🚀🚀</h2>
-<h3>decided the rough UI till now 
+<h3>Home page, 
+Signup page, 
+Login Page 
+Frontend ready
 </br>
-And Created the hero part of landing page
+Working
+on
+Dashboard 
+UI.
 </h3>
